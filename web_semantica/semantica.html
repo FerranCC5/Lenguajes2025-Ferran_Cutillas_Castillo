@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ferran Cutillas Castillo">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial;
+            background-color: #e0e0e0;
+            padding: 10px;
+        }
+
+        .box {
+            border: solid 2px #666;
+            margin: 10px auto;
+        }
+
+        header, main, 
+        section, article, 
+        figure, footer, 
+        nav, aside {
+            display: block;
+            margin: 5px;
+            border: 1px solid black;
+            border-radius: 6px;
+            padding: 10px;
+        }
+        
+        header{
+            background-color: #E2D4B7;
+        }
+
+        nav{
+            background-color: #9C9583;
+        }
+
+        section {
+            background-color: #A1A499;
+        }
+
+        article{
+            background-color: #B0BBBF;
+        }
+        aside {
+            background-color: #CADBC8;
+        }
+
+        footer{
+            background-color: #7A9E7E;
+        }
+
+        .inline{
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        .w100{
+            width: 100%;
+        }
+        .w90{
+            width: 90%;
+        }
+        .w80{
+            width: 80%;
+        }
+        .w70{
+            width: 70%;
+        }
+        .w60{
+            width: 60%;
+        }
+        .w50{
+            width: 50%;
+        }
+        .w40{
+            width: 40%;
+        }
+        .w30{
+            width: 30%;
+        }
+        .w20{
+            width: 20%;
+        }
+        .w10{
+            width: 100%;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header class="box center w80">
+        <p>&lt; Header &gt;</p>
+        <figure class="inline w20">
+            <p>&lt; figure &gt;</p>
+            <img src="https://placehold.co/100x100" alt="logo">
+        </figure>
+        <h1 class="inline w50">Titulo</h1>
+        <aside class="inline w20">
+            &lt; aside &gt;
+        </aside>
+    </header>
+
+    <nav class="box w80 center"> 
+        <p>&lt; nav &gt;</p>
+        <a href="#">Enlace 1</a><a href="#">Enlace 2</a><a href="#">Enlace 3</a>
+    </nav>
+
+    <main class="box w80 center">
+        <section>
+            <p>&lt; section &gt;</p>
+            <section class="inline w70">
+                <p>&lt; section &gt;</p>
+                <header>&lt; header &gt;</header>
+                <article>&lt; article &gt;</article>
+                <figure class="w40">&lt; figure &gt;</figure>
+                <footer>&lt; footer &gt;</footer>
+            </section>
+            <section class="inline w20">
+                <p>&lt; section &gt;</p>
+                <article>&lt; article &gt;</article>
+                <article>&lt; article &gt;</article>
+                <article>&lt; article &gt;</article>
+            </section>
+        </section>
+
+        <section>
+            <p>&lt; section &gt;</p>
+            <section class="inline w70">
+                <p>&lt; section &gt;</p>
+                <header>&lt; header &gt;</header>
+                <article>&lt; article &gt;</article>
+                <figure class="w40">&lt; figure &gt;</figure>
+                <footer>&lt; footer &gt;</footer>
+            </section>
+            <section class="inline w20">
+                <p>&lt; section &gt;</p>
+                <aside>&lt; aside &gt;</aside>
+                <footer>&lt; footer &gt;</footer>
+            </section>
+        </section>
+
+        <section class="center">
+            <p>&lt; section &gt;</p>
+            <aside class="inline w80">&lt; aside &gt;</aside>
+        </section>
+
+    </main>
+
+    <footer class="box w80">&lt; footer &gt;</footer>
+
+</body>
+
+</html>
