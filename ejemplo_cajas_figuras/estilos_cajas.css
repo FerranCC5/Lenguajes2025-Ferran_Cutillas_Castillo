@@ -1,0 +1,108 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkblue;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+table {
+    margin-left: 20vmin;
+}
+
+.caja{
+    width: 400px;
+    height: 300px;
+    margin: auto;
+    box-sizing: border-box;
+    color: darkblue;
+}
+
+.caja1{
+    background-color: antiquewhite;
+    border-color: black;
+    border-style: dotted;
+    border-width: 5px;
+    padding-top: 10%;
+    padding-left: 10%;
+}
+
+.caja2{
+    background-color: yellow;
+    border-left: 50px solid #000;
+    border-top: 3px solid #000;
+    border-bottom: 3px solid #000;
+    border-right: 3px solid #000;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+.caja3{
+    background-color: salmon;
+    border-radius: 12px;
+    border: 15px groove darksalmon;
+    text-align: right;
+}
+
+.caja4{
+    background-color: lightgreen;
+    border-left: 30px solid black;
+    border-top: 30px solid black;
+    border-right: 30px solid darkgreen;
+    border-bottom: 30px solid darkgreen;
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+}
+
+.caja5{
+    background-color: rgb(255, 229, 180);
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+    border-color: orangered;
+    border-style: dotted;
+    font-size: 100px;
+    text-align: center;
+    padding-top: 90px;
+
+}
+.caja6{
+    background-color: lightblue;
+    border-bottom: 30px solid darkblue;
+    border-right: 30px solid darkblue;
+    border-top: 30px solid blue;
+    border-left: 30px solid blue;
+    text-align: center;
+    padding-top: 20%;
+}
+
+.caja7{
+    background:linear-gradient(to bottom, red, orange, yellow);
+    border-bottom:25px solid red;
+    border-top:5px solid red;
+    border-right:5px solid red; 
+    border-left:5px solid red; 
+    text-align: center;
+    padding-top: 20%;
+}
+
+.caja8{
+    background-color: white;
+    border-top: 25px solid yellow;
+    border-right: 25px solid green;
+    border-bottom: 25px solid red;
+    border-left: 25px solid blue;
+}
+
+.caja9{
+    background-color: white;
+    border: 25px double blueviolet;
+    border-radius: 50px;
+    text-align: center;
+    padding-top: 20px;
+}
