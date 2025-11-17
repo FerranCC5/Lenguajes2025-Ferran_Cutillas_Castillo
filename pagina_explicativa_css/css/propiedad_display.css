@@ -1,0 +1,39 @@
+body {
+    text-align: center;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+hr {
+    border: 1px solid black;
+}
+
+/* Caja inline */
+.inline {
+    /* No permite modificar alto ni ancho */
+    display: inline;
+    height: 100px;
+    width: 100px;
+    background-color: lightpink;
+    padding: 5px;
+}
+
+/* Caja block */
+.block {
+    /* Ocupa toda la fila */
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color: lightgreen;
+    margin: 10px auto;
+}
+
+/* Caja inline-block */
+.inline-block {
+    /* Permite ancho y alto pero se comporta en línea */
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    margin: 7px auto;
+}

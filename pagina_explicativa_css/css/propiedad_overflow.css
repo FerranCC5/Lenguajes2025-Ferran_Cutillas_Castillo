@@ -1,0 +1,43 @@
+.contenedor {
+    width: 200px;
+    height: 120px;
+    border: 2px solid black;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+/* El contenido que no quepa se oculta */
+.hidden {
+    overflow: hidden;
+    background-color: lightcoral;
+}
+
+/* El contenido que no quepa se mostrará fuera del contenedor, auque esta propiedad estará por defecto */
+.visible {
+    overflow: visible;
+    background-color: lightcoral;
+}
+
+/* Muestra barras de desplazamiento si hacen falta*/
+.auto {
+    overflow: auto;
+    background-color: lightblue;
+}
+
+/* Siempre muestra las scrollbars aunque no sea necesario */
+.scroll {
+    overflow: scroll;
+    background-color: lightgreen;
+}
+
+body{
+    text-align: center;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+hr{
+    border: 1px solid black;
+}

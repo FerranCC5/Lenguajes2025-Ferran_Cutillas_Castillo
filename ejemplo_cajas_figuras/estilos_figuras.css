@@ -2,24 +2,23 @@ td{
     border: 1px solid #000;
 }
 
-.caja{
-    width: 200px;
-    height: 200px;
-    margin: auto;
-}
-
 .caja2 {
     background-color: green;
     border-radius: 100%;
+    width: 150px;
+    height: 150px;
 }
 
 .caja4 {
     background-color: green;
-    border-right: 100px  white;
     border-radius: 100%;
+    width: 150px;
+    height: 150px;
 }
 
 .caja6 {
     background-color: green;
     border-radius: 100%;
+    width: 150px;
+    height: 150px;
 }
