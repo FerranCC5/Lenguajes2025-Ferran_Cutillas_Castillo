@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ferran Cutillas Castillo">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Ajedrez</title>
+</head>
+<body>
+    <main>
+
+        <header>
+            Ferran Cutillas Catillo | Ajedrez
+        </header>
+
+        <table>
+            
+            <tr>
+                <td class="borde"><div class="caja"></div></td>
+                <td class="borde"><div class="caja vuelta">H</div></td>
+                <td class="borde"><div class="caja vuelta">G</div></td>
+                <td class="borde"><div class="caja vuelta">F</div></td>
+                <td class="borde"><div class="caja vuelta">E</div></td>
+                <td class="borde"><div class="caja vuelta">D</div></td>
+                <td class="borde"><div class="caja vuelta">C</div></td>
+                <td class="borde"><div class="caja vuelta">B</div></td>
+                <td class="borde"><div class="caja vuelta">A</div></td>
+                <td class="borde"><div class="caja"></div></td>
+            </tr>
+
+            <tr>
+                <td class="borde"><div class="caja">8</div></td>
+                <td class="oscuro"><div class="caja"><img src="./img/torrenegra.png" alt="torre_negra"></div></td>
+                <td class="claro"><div class="caja"><img src="./img/caballonegro.png" alt="caballo_negro"></div></td>
+                <td class="oscuro"><div class="caja"><img src="./img/alfilnegro.png" alt="alfil_negro"></div></td>
+                <td class="claro"><div class="caja"><img src="./img/reynegro.png" alt="rey_negro"></div></td>
+                <td class="oscuro"><div class="caja"><img src="./img/reinanegra.png" alt="reina_negra"></div></td>
+                <td class="claro"><div class="caja"><img src="./img/alfilnegro.png" alt="alfil_negro"></div></td>
+                <td class="oscuro"><div class="caja"><img src="./img/caballonegro.png" alt="caballo_negro"></div></td>
+                <td class="claro"><div class="caja"><img src="./img/torrenegra.png" alt="torre_negra"></div></td>
+                <td class="borde"><div class="caja vuelta">1</div></td>
+            </tr>
+
+            <tr>
+                <td class="borde"><div class="caja">7</div></td>
+                <td class="claro"><div class="caja"><img src="./img/peonnegro.png" alt="peon_negro"></div></td>
+                <td class="oscuro"><div class="caja"><img src="./img/peonnegro.png" alt="peon_negro"></div></td>
+                <td class="claro"><div class="caja"><img src="./img/peonnegro.png" alt="peon_negro"></div></td>
+                <td class="oscuro"><div class="caja"><img src="./img/peonnegro.png" alt="peon_negro"></div></td>
+                <td class="claro"><div class="caja"><img src="./img/peonnegro.png" alt="peon_negro"></div></td>
+                <td class="oscuro"><div class="caja"><img src="./img/peonnegro.png" alt="peon_negro"></div></td>
+                <td class="claro"><div class="caja"><img src="./img/peonnegro.png" alt="peon_negro"></div></td>
+                <td class="oscuro"><div class="caja"><img src="./img/peonnegro.png" alt="peon_negro"></div></td>
+                <td class="borde"><div class="caja vuelta">2</div></td>
+            </tr>
+
+            <tr>
+                <td class="borde"><div class="caja">6</div></td>
+                <td class="oscuro"><div class="caja"></div></td>
+                <td class="claro"><div class="caja"></div></td>
+                <td class="oscuro"><div class="caja"></div></td>
+                <td class="claro"><div class="caja"></div></td>
+                <td class="oscuro"><div class="caja"></div></td>
+                <td class="claro"><div class="caja"></div></td>
+                <td class="oscuro"><div class="caja"></div></td>
+                <td class="claro"><div class="caja"></div></td>
+                <td class="borde"><div class="caja vuelta">3</div></td>
+            </tr>
+
+            <tr>
+                <td class="borde"><div class="caja">5</div></td>
+                <td class="claro"><div class="caja"></div></td>
+                <td class="oscuro"><div class="caja"></div></td>
+                <td class="claro"><div class="caja"></div></td>
+                <td class="oscuro"><div class="caja"></div></td>
+                <td class="claro"><div class="caja"></div></td>
+                <td class="oscuro"><div class="caja"></div></td>
+                <td class="claro"><div class="caja"></div></td>
+                <td class="oscuro"><div class="caja"></div></td>
+                <td class="borde"><div class="caja vuelta">4</div></td>
+            </tr>
+
+            <tr>
+                <td class="borde"><div class="caja">4</div></td>
+                <td class="oscuro"><div class="caja"></div></td>
+                <td class="claro"><div class="caja"></div></td>
+                <td class="oscuro"><div class="caja"></div></td>
+                <td class="claro"><div class="caja"></div></td>
+                <td class="oscuro"><div class="caja"></div></td>
+                <td class="claro"><div class="caja"></div></td>
+                <td class="oscuro"><div class="caja"></div></td>
+                <td class="claro"><div class="caja"></div></td>
+                <td class="borde"><div class="caja vuelta">5</div></td>
+            </tr>
+
+            <tr>
+                <td class="borde"><div class="caja">3</div></td>
+                <td class="claro"><div class="caja"></div></td>
+                <td class="oscuro"><div class="caja"></div></td>
+                <td class="claro"><div class="caja"></div></td>
+                <td class="oscuro"><div class="caja"></div></td>
+                <td class="claro"><div class="caja"></div></td>
+                <td class="oscuro"><div class="caja"></div></td>
+                <td class="claro"><div class="caja"></div></td>
+                <td class="oscuro"><div class="caja"></div></td>
+                <td class="borde"><div class="caja vuelta">6</div></td>
+            </tr>
+
+            <tr>
+                <td class="borde"><div class="caja">2</div></td>
+                <td class="oscuro"><div class="caja "><img src="./img/peonblanco.png" alt="peon_blanco"></div></td>
+                <td class="claro"><div class="caja"><img src="./img/peonblanco.png" alt="peon_blanco"></div></td>
+                <td class="oscuro"><div class="caja"><img src="./img/peonblanco.png" alt="peon_blanco"></div></td>
+                <td class="claro"><div class="caja"><img src="./img/peonblanco.png" alt="peon_blanco"></div></td>
+                <td class="oscuro"><div class="caja"><img src="./img/peonblanco.png" alt="peon_blanco"></div></td>
+                <td class="claro"><div class="caja"><img src="./img/peonblanco.png" alt="peon_blanco"></div></td>
+                <td class="oscuro"><div class="caja"><img src="./img/peonblanco.png" alt="peon_blanco"></div></td>
+                <td class="claro"><div class="caja"><img src="./img/peonblanco.png" alt="peon_blanco"></div></td>
+                <td class="borde"><div class="caja vuelta">7</div></td>
+            </tr>
+
+            <tr>
+                <td class="borde"><div class="caja">1</div></td>
+                <td class="claro"><div class="caja"><img src="./img/torreblanca.png" alt="torre_blanca"></div></td>
+                <td class="oscuro"><div class="caja"><img src="./img/caballoblanco.png" alt="caballo_blanco"></div></td>
+                <td class="claro"><div class="caja"><img src="./img/alfilblanco.png" alt="alfil_blanco"></div></td>
+                <td class="oscuro"><div class="caja"><img src="./img/reyblanco.png" alt="rey_blanco"></div></td>
+                <td class="claro"><div class="caja"><img src="./img/reinablanca.png" alt="reina_blanca"></div></td>
+                <td class="oscuro"><div class="caja"><img src="./img/alfilblanco.png" alt="alfil_blanco"></div></td>
+                <td class="claro"><div class="caja"><img src="./img/caballoblanco.png" alt="caballo_blanco"></div></td>
+                <td class="oscuro"><div class="caja"><img src="./img/torreblanca.png" alt="torre_blanca"></div></td>
+                <td class="borde"><div class="caja vuelta">8</div></td>
+            </tr>
+
+            <tr>
+                <td class="borde"><div class="caja"></div></td>
+                <td class="borde"><div class="caja">A</div></td>
+                <td class="borde"><div class="caja">B</div></td>
+                <td class="borde"><div class="caja">C</div></td>
+                <td class="borde"><div class="caja">D</div></td>
+                <td class="borde"><div class="caja">E</div></td>
+                <td class="borde"><div class="caja">F</div></td>
+                <td class="borde"><div class="caja">G</div></td>
+                <td class="borde"><div class="caja">H</div></td>
+                <td class="borde"><div class="caja vuelta"></div></td>
+            </tr>
+
+        </table>
+    </main>
+
+    <footer>
+        Accede a
+        <a href="https://www.chess.com/" target="_blank">chess.com</a>
+        para aprender más sobre ajedrez
+    </footer>
+</body>
+</html>

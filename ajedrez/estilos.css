@@ -1,0 +1,62 @@
+*{
+    font-family: Verdana;
+    font-size: 1.25rem;
+}
+
+body{
+    text-align: center;
+    background-color: antiquewhite;
+    margin: 0;
+}
+
+.vuelta{
+    transform: rotate(180deg);
+}
+
+header{
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: black;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+table{
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+footer{
+    text-align: center;
+    margin-top: 20px;
+    background-color: black;
+    padding: 5px;
+    color: white;
+    font-size: 15px;
+}
+
+a{
+    color: white;
+    font-size: 15px;
+}
+
+.caja{
+    width:  100px;
+    height: 100px;
+    margin: auto;
+    
+}
+
+.borde{
+    background-image: url(./img/madera_borde.jpg);
+
+}
+
+.claro{
+    background-image: url(./img/madera_clara.png);
+}
+
+.oscuro{
+    background-image: url(./img/madera_oscura.png);
+}
