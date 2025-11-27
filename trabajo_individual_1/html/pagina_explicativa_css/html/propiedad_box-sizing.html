@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ferran Cutillas Castillo">
+    <link rel="stylesheet" href="../css/propiedad_box-sizing.css">
+    <title>Propiedad box-sizing</title>
+</head>
+
+<body>
+    <h1>Propiedad box-sizing</h1>
+    <p>La propiedad box-sizing controla cómo se calcula el tamaño de un elemento.</p>
+    <hr>
+
+    <h2>Ejemplo sin box-sizing (valor por defecto: content-box)</h2>
+    <div class="caja">Ancho total = width + padding + border = mucho más de 225px (que sería lo que mide el width).</div>
+    <p>
+        Si no usamos la propiedad box-sizing: border-box; nuestro contenedor no solo medirá los 200px de ancho de 
+        width, sino que se le sumarán el a este el padding y el border.
+    </p>
+    <hr>
+
+    <h2>Ejemplo con box-sizing: border-box</h2>
+    <div class="caja border-box">Ancho total = 200px (incluye padding y borde).</div>
+    <p>
+        Al usar esta propiedad el ancho total será el del width y se reajustará para que mida 200px con el padding y el border incluido.
+    </p>
+    <a href="../index.html">Volver al inicio</a>
+</body>
+
+</html>

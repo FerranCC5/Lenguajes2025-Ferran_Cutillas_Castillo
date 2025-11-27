@@ -1,0 +1,41 @@
+.cajacompleta {
+    /* Ancho del contenido */
+    width: 200px;
+    /* Relleno (el espacio interno) */
+    padding: 20px;
+    /* Márgenes (el espacio externo) */
+    margin: 50px auto;
+    /* Borde */
+    border: 5px solid black;
+    background-color: green;
+}
+
+.cajamargen {
+    width: 200px;
+    background-color: green;
+    margin: 50px auto;
+}
+
+.cajaborde{
+    width: 200px;
+    border: 5px solid black;
+    background-color: green;
+    margin: 0 auto;
+}
+
+.cajapadding{
+    width: 200px;
+    padding: 20px;
+    margin: 0 auto;
+    background-color: green;
+}
+
+body{
+    text-align: center;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+hr{
+    border: 1px solid black;
+}

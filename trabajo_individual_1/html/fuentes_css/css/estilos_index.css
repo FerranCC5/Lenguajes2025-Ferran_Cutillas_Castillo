@@ -1,0 +1,45 @@
+header{
+    width: 1000px;
+    background-color: blue;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+.segura{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@font-face {
+    font-family: FuenteNueva;
+    src: url("https://mdn.github.io/css-examples/web-fonts/VeraSeBd.ttf");
+}
+.font-face {
+    font-family: FuenteNueva;
+}
+
+
+.google{
+    font-family: "Sofia", sans-serif;
+}
+
+footer{
+    width: 1000px;
+    background-color: blue;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+.contenedor{
+    max-width: 1000px;
+    margin: 10px auto;
+    background-color: lightblue;
+    padding: 1rem;
+    border-radius: 8px
+
+}

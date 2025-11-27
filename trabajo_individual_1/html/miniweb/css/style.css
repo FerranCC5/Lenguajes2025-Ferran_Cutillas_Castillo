@@ -1,0 +1,24 @@
+body{
+    background-color:rgb(135, 162, 167);
+    text-align: center;
+    margin: auto;
+    max-width: 900px;
+    background-image: url(https://wallpapers.com/images/hd/blue-gray-3840-x-2160-background-9ol79686hvaz67w4.jpg);
+}
+h1{
+    color:rgb(65, 65, 151);
+    font-size: 350%;
+    -webkit-text-stroke: 1px black;
+    font-family: 'Times New Roman', Times, serif;
+}
+p{
+    font-size: 150%;
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+}
+a{
+    color:black;
+}
+hr{
+    border: 1px solid black;
+}
