@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body, main {
+    height: 100%;
+    width: 100%;
+}
+
+.gris {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    height: 10%;
+    width: 100%;
+    background-color: grey;
+}
+
+.azul {
+    height: 15%;
+    width: 100%;
+    background-color: blue;
+}
+
+.rojo {
+    float: left;
+    width: 20%;
+    height: 70%;
+    background-color: red;
+}
+
+.verde {
+    float: left;
+    width: 40%;
+    height: 70%;
+    background-color: green;
+}
+
+.amarillo {
+    float: left;
+    width: 40%;
+    height: 70%;
+    background-color: yellow;
+}
+
+.naranja {
+    clear: both;
+    height: 50%;
+    width: 100%;
+    background-color: orange;
+}
+
+.morado {
+    position: fixed;
+    right: 60px;
+    bottom: 150px;
+    width: 120px;
+    height: 120px;
+    background-color: purple;
+}

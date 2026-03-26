@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dni xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="dni.xsd">
+    
+    <persona>
+        <nombre>Juan</nombre>
+        <apellidos>García Pérez</apellidos>
+        <numero_nif>12345678Z</numero_nif>
+        <nacionalidad>Española</nacionalidad>
+        <fecha_nacimiento>1990-05-20</fecha_nacimiento>
+        <sexo>Hombre</sexo>
+    </persona>
+
+    <persona>
+        <nombre>María</nombre>
+        <apellidos>López Iturbide</apellidos>
+        <numero_nif>87654321X</numero_nif>
+        <nacionalidad>Española</nacionalidad>
+        <edad>25</edad>
+        <sexo>Mujer</sexo>
+    </persona>
+
+</dni>

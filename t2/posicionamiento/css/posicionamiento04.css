@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body,
+html,
+main {
+    height: 100%;
+}
+
+.rojo {
+    float: left;
+    width: 20%;
+    height: 70%;
+    background-color: red;
+}
+
+.azul {
+    height: 20%;
+    width: 100%;
+    background-color: blue;
+}
+
+.verde {
+    float: left;
+    height: 70%;
+    width: 40%;
+    background-color: green;
+}
+
+.amarillo {
+    float: left;
+    width: 40%;
+    height: 70%;
+    background-color: yellow;
+}
+
+.naranja {
+    clear: both;
+    height: 10%;
+    width: 100%;
+    background-color: orange;
+}

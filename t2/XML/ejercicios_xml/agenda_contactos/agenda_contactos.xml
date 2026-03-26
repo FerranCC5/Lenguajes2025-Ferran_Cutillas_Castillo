@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<agenda xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="agenda_contactos.xsd">
+    <contacto>
+        <nombre>Juan</nombre>
+        <apellido>Pérez</apellido>
+        <telefono>+34 600111222</telefono>
+        <email>juan.perez@email.com</email>
+        <categoria>Trabajo</categoria>
+    </contacto>
+
+    <contacto>
+        <nombre>María</nombre>
+        <apellido>García</apellido>
+        <telefono>912345678</telefono>
+        <email>m.garcia@email.com</email>
+        <categoria>Familia</categoria>
+    </contacto>
+
+</agenda>

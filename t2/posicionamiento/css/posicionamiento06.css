@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    text-align: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    background-color: #2E8B57;
+    color: white;
+    padding: 2rem;
+    z-index: 1;
+}
+
+.image-container {
+    position: relative;
+    width: fit-content;
+    margin: 20px auto;
+}
+
+.image-container img {
+    display: block;
+    max-width: 100%;
+}
+
+.posiciones {
+    position: absolute;
+    background: black;
+    color: white;
+    padding: 5px;
+}
+
+.ojo1 {
+    top: 36%; left: 46.5%;
+}
+.ojo2 { 
+    top: 41%; left: 60%; transform: translate(-50%, -50%); 
+}
+.nariz {
+    top: 52%; right: 42%; 
+    }
+.boca { 
+    top: 60%; right: 43%; 
+}
+
+.boton{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #8B4513;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}

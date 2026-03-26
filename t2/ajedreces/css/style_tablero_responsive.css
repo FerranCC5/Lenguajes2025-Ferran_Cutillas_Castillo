@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    font-family: Verdana;
+}
+
+body {
+    margin: 0;
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+header, footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+.contenedor-responsive {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.tablero {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    max-width: 100%;
+    aspect-ratio: 1 / 1;
+}
+
+.celda {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.celda img {
+    width: 100%;
+    height: auto;
+}
+
+.borde {
+    background-image: url("../img/madera_borde.jpg");
+}
+.claro {
+    background-image: url("../img/madera_clara.png");
+}
+.oscuro {
+    background-image: url("../img/madera_oscura.png");
+}
+.vuelta {
+    transform: rotate(180deg);
+}
+
+
+@media (max-width: 600px) {
+    body {
+        background-color: grey;
+    }
+}

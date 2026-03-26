@@ -1,0 +1,32 @@
+* {
+    height: 100%;
+}
+
+div.rojo {
+    width: 50%;
+    height: 50%;
+    float: right;
+    background-color: red;
+}
+
+div.azul {
+    width: 50%;
+    height: 50%;
+    float: left;
+    background-color: blue;
+}
+
+div.amarillo {
+    float: right;
+    height: 50%;
+    width: 50%;
+    background-color: yellow;
+}
+
+div.verde {
+    clear: both;
+    float: left;
+    height: 50%;
+    width: 50%;
+    background-color: green;
+}

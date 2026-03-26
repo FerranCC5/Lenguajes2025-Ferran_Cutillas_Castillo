@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="concesionario.xsd"?>
+<concesionario>
+    <coche>
+        <marca></marca>
+        <modelo></modelo>
+        <matricula></matricula>
+        <combustible></combustible>
+        <precio></precio>
+        <color>rojo</color>
+    </coche>
+    <coche>
+        <marca></marca>
+        <modelo></modelo>
+        <matricula></matricula>
+        <combustible></combustible>
+        <precio_iva></precio_iva>
+        <color>azul</color>
+    </coche>
+    <coche>
+        <marca></marca>
+        <modelo></modelo>
+        <matricula></matricula>
+        <combustible></combustible>
+        <color>verde</color>
+    </coche>
+</concesionario>

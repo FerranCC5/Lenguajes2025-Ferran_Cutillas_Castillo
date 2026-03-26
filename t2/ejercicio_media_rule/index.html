@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ferran Cutillas Castillo">
+    <title>media_rule</title>
+
+    <style>
+        body{
+            background-image: url(./img/jungla1.jpg);
+            background-size: cover;
+            background-position: center;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            height: 100vh;
+            margin: 0;
+        }
+
+        img {
+            display: none;
+        }
+
+        p {
+            display: none;
+            font-size: 30px;
+            color: white;
+        }
+
+        .img1,.text1 {
+            display: block;
+        }
+
+        @media only screen and (max-width: 1200px) {
+            body {
+                background-image: url(./img/jungla2.jpg);
+            }
+            .img1, .text1 { 
+                display: none; 
+            }
+            .img2, .text2 { 
+                display: block; 
+            }
+        }
+
+        @media only screen and (max-width: 850px) {
+            body {
+                background-image: url(./img/jungla3.jpg);
+            }
+            .img2, .text2 { 
+                display: none; 
+            }
+            .img3, .text3 { 
+                display: block; 
+            }
+        }
+        
+    </style>
+</head>
+
+<body>
+
+    <img class="img1" src="./img/mono1.jpg" alt="Mono grande">
+    <img class="img2" src="./img/mono2.jpg" alt="Mono mediano">
+    <img class="img3" src="./img/mono3.jpg" alt="Mono pequeño">
+    <p class="text1">Pantalla grande</p>
+    <p class="text2">Pantalla mediana</p>
+    <p class="text3">Pantalla pequeña</p>
+
+</body>
+</html>

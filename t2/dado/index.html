@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ferran Cutillas Castillo">
+    <title>Dado - Ferran Cutillas Castillo</title>
+</head>
+<style>
+    *{
+        margin: 0;
+    }
+
+    header {
+        background-color: lightblue;
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+        font-size: 30px;
+    }
+
+    main {
+        display: flex;
+        justify-content: center;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        background-color: beige;
+    }
+
+    .contenedor {
+        display: grid;
+        grid-template-columns: repeat(3, 200px);
+        grid-template-rows: repeat(2, 200px);
+        gap: 25px;
+    }
+
+    .contenedor2 {
+        width: 185px;
+        height: 185px;
+        background-color: white;
+        border-radius: 10px;
+    }
+
+    .dado {
+        width: 200px;
+        height: 200px;
+        background-color: lightgray;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        border-style: solid;
+    }
+
+    .punto {
+        width: 50px;
+        height: 50px;
+        background-color: #000;
+        border-radius: 50%;
+        box-shadow: 2px 1px 5px rgba(0, 0, 0, 0.5);
+        position: absolute;
+    }
+
+
+    .centro {
+        top: 37.5%;
+        left: 37.5%;
+    }
+
+    .centrod {
+        top: 37.5%;
+        left: 65%;
+    }
+
+    .centroi {
+        top: 37.5%;
+        right: 65%;
+    }
+
+    .arribai {
+        bottom: 65%;
+        right: 65%;
+    }
+
+    .abajod {
+        top: 65%;
+        left: 65%;
+    }
+
+    .abajoi {
+        top: 65%;
+        right: 65%;
+    }
+
+    .arribad{
+        bottom: 65%;
+        left: 65%;
+    }
+
+    footer{
+        background-color: lightblue;
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+    }
+</style>
+<body>
+    <header>Dado</header>
+
+    <main>
+    <div class="contenedor">
+        <div>
+            <div class="dado">
+                <div class="contenedor2">
+                    <div class="punto centro"></div>
+                </div>
+                
+            </div>
+        </div>
+        <div>
+            <div class="dado">
+                <div class="contenedor2">
+                    <div class="punto arribai"></div>
+                    <div class="punto abajod"></div>
+                </div>                
+            </div>
+        </div>
+        <div>
+            <div class="dado">
+                <div class="contenedor2">
+                    <div class="punto abajoi"></div>
+                    <div class="punto centro"></div>
+                    <div class="punto arribad "></div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="dado">
+                <div class="contenedor2">
+                    <div class="punto arribai"></div>
+                    <div class="punto abajoi"></div>
+                    <div class="punto arribad"></div>
+                    <div class="punto abajod"></div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="dado">
+                <div class="contenedor2">
+                    <div class="punto arribad"></div>
+                    <div class="punto arribai"></div>
+                    <div class="punto centro"></div>
+                    <div class="punto abajod"></div>
+                    <div class="punto abajoi"></div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="dado">
+                <div class="contenedor2">
+                    <div class="punto arribad"></div>
+                    <div class="punto arribai"></div>
+                    <div class="punto abajod"></div>
+                    <div class="punto abajoi"></div>
+                    <div class="punto centrod"></div>
+                    <div class="punto centroi"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </main>
+    <footer>Ferran Cutillas Castilo</footer>
+
+</body>
+</html>

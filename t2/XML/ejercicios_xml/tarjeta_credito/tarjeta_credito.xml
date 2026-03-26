@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<banco xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+       xsi:noNamespaceSchemaLocation="tarjeta_credito.xsd">
+    
+    <tarjeta>
+        <titular>JUAN PEREZ</titular>
+        <numero_tarjeta>4548 1234 5678 9101</numero_tarjeta>
+        <marca>visa</marca>
+        <caducidad>12/28</caducidad>
+        <limite_credito>3000</limite_credito>
+        <cvv>123</cvv>
+    </tarjeta>
+
+    <tarjeta>
+        <titular>MARIA LOPEZ</titular>
+        <numero_tarjeta>5412 8888 9999 0000</numero_tarjeta>
+        <marca>mastercard</marca>
+        <caducidad>05/27</caducidad>
+        <saldo_disponible>1250.50</saldo_disponible>
+        <cvv>456</cvv>
+    </tarjeta>
+
+</banco>

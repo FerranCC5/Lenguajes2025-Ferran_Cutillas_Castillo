@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="menu_restaurante.xsd">
+    <plato>
+        <nombre>Combinado 1</nombre>
+        <precio>12.50</precio>
+        <primero>macarrones</primero>
+        <segundo>patata</segundo>    
+    </plato>
+
+    <plato>
+        <nombre>Combinado Especial</nombre>
+        <precio>15.00</precio>
+        <primero>filete</primero>
+        <segundo>pera</segundo>
+    </plato>
+</menu>

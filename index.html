@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ferran Cutillas Castillo">
+    <title>Ferran | Repositorio</title>
+    
+    <style>
+        :root {
+            --color-fondo: #f4f5f0;
+            --color-oscuro: #0a1f16;
+            --color-principal: #1b4332;
+            --color-claro: #d8e2dc;
+            --color-blanco: #ffffff;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: var(--color-fondo);
+            color: var(--color-oscuro);
+            padding: 40px 20px;
+            display: flex;
+            justify-content: center;
+            background-image: linear-gradient(var(--color-claro) 1px, transparent 1px),
+                              linear-gradient(90deg, var(--color-claro) 1px, transparent 1px);
+            background-size: 30px 30px;
+        }
+
+        .contenedor {
+            max-width: 800px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+        }
+
+        header {
+            background-color: var(--color-blanco);
+            border: 3px solid var(--color-oscuro);
+            padding: 25px;
+            box-shadow: 8px 8px 0px var(--color-oscuro);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .perfil h1 {
+            font-size: 2rem;
+            text-transform: uppercase;
+            letter-spacing: -1px;
+            font-weight: 900;
+        }
+
+        .boton-github {
+            background: var(--color-blanco);
+            color: var(--color-oscuro);
+            border: 3px solid var(--color-oscuro);
+            padding: 10px 20px;
+            text-decoration: none;
+            font-weight: 900;
+            text-transform: uppercase;
+            box-shadow: 4px 4px 0px var(--color-oscuro);
+            transition: all 0.15s ease;
+        }
+
+        .boton-github:hover {
+            transform: translate(4px, 4px);
+            box-shadow: 0px 0px 0px var(--color-oscuro);
+            background: var(--color-principal);
+            color: var(--color-blanco);
+        }
+
+        .bloque-trimestre {
+            background-color: var(--color-blanco);
+            border: 3px solid var(--color-oscuro);
+            box-shadow: 8px 8px 0px var(--color-oscuro);
+        }
+
+        .cabecera-trimestre {
+            padding: 15px 25px;
+            border-bottom: 3px solid var(--color-oscuro);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: var(--color-principal);
+            color: var(--color-blanco);
+        }
+
+        .cabecera-trimestre h2 {
+            font-size: 1.5rem;
+            text-transform: uppercase;
+            font-weight: 900;
+        }
+
+        .estado {
+            background: var(--color-blanco);
+            color: var(--color-oscuro);
+            border: 2px solid var(--color-oscuro);
+            padding: 4px 10px;
+            font-weight: bold;
+            text-transform: uppercase;
+            box-shadow: 2px 2px 0px var(--color-oscuro);
+            font-size: 0.85rem;
+        }
+
+        .lista-ejercicios {
+            list-style: none;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .ejercicio {
+            display: block;
+            background: var(--color-blanco);
+            border: 2px solid var(--color-oscuro);
+            padding: 12px 18px;
+            text-decoration: none;
+            color: var(--color-oscuro);
+            font-weight: bold;
+            font-size: 1.05rem;
+            box-shadow: 3px 3px 0px var(--color-oscuro);
+            transition: all 0.1s ease;
+        }
+
+        .ejercicio:hover:not(.bloqueado) {
+            transform: translate(3px, 3px);
+            box-shadow: 0px 0px 0px var(--color-oscuro);
+            background: var(--color-claro);
+        }
+
+        .ejercicio.bloqueado {
+            background: var(--color-fondo);
+            color: #666;
+            border-style: dashed;
+            box-shadow: none;
+            cursor: not-allowed;
+            opacity: 0.7;
+        }
+
+        .simbolo {
+            margin-right: 12px;
+            font-weight: 900;
+        }
+    </style>
+</head>
+<body>
+
+    <main class="contenedor">
+        
+        <header>
+            <div class="perfil">
+                <h1>Ferran Cutillas</h1>
+            </div>
+            <a href="https://github.com/FerranCC5/Lenguajes2025-Ferran_Cutillas_Castillo" target="_blank" class="boton-github">
+                [+] REPO GITHUB
+            </a>
+        </header>
+
+        <section class="bloque-trimestre">
+            <div class="cabecera-trimestre">
+                <h2>Trimestre 01</h2>
+                <span class="estado">Completado</span>
+            </div>
+            <ul class="lista-ejercicios">
+                <li><a href="./t1/trabajo_individual_1/" class="ejercicio"><span class="simbolo">></span>Trabajo individual 1</a></li>
+                <li><a href="./t1/trabajo_grupal_1/" class="ejercicio"><span class="simbolo">></span>Trabajo grupal 1</a></li>
+            </ul>
+        </section>
+
+        <section class="bloque-trimestre">
+            <div class="cabecera-trimestre">
+                <h2>Trimestre 02</h2>
+                <span class="estado">En Curso</span>
+            </div>
+            <ul class="lista-ejercicios">
+                <li><a href="./t2/posicionamiento/" class="ejercicio"><span class="simbolo">></span>Posicionamiento</a></li>
+                <li><a href="./t2/ajedreces/" class="ejercicio"><span class="simbolo">></span>Ajedreces Layout</a></li>
+                <li><a href="./t2/ejercicio_media_rule/" class="ejercicio"><span class="simbolo">></span>Media Rule Queries</a></li>
+                <li><a href="./t2/XML/" class="ejercicio"><span class="simbolo">></span>Estructuras XML</a></li>
+                <li><a href="./t2/xpath_web/" class="ejercicio"><span class="simbolo">></span>Consultas XPATH</a></li>
+                <li><a href="./t2/dado/" class="ejercicio"><span class="simbolo">></span>Ejercicio dado</a></li>
+            </ul>
+        </section>
+
+        <section class="bloque-trimestre">
+            <div class="cabecera-trimestre">
+                <h2>Trimestre 03</h2>
+                <span class="estado">Próximamente</span>
+            </div>
+            <ul class="lista-ejercicios">
+                <li><div class="ejercicio bloqueado"><span class="simbolo">X</span>Trabajo individual 3</div></li>
+                <li><div class="ejercicio bloqueado"><span class="simbolo">X</span>Trabajo grupal 3</div></li>
+            </ul>
+        </section>
+
+    </main>
+
+</body>
+</html>

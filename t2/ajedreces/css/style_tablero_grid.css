@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    font-family: Verdana;
+}
+
+body {
+    margin: 0;
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+header, footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+.contenedor-grid {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.tablero {
+    display: grid;
+    grid-template-columns: repeat(10, 100px);
+    grid-template-rows: repeat(10, 100px);
+}
+
+/* CELDAS */
+.celda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.celda img {
+    width: 90%;
+}
+
+.borde {
+    background-image: url("../img/madera_borde.jpg");
+}
+
+.claro {
+    background-image: url("../img/madera_clara.png");
+}
+
+.oscuro {
+    background-image: url("../img/madera_oscura.png");
+}
+
+.vuelta {
+    transform: rotate(180deg);
+}
