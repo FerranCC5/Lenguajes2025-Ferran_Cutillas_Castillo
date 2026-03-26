@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ferran Cutillas Castillo">
+    <title>Resumen de XML - Tema 10</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f9;
+            color: #333;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+        }
+        
+        .contenedor {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 30px 40px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+        }
+        
+        .cabecera {
+            text-align: center;
+            border-bottom: 3px solid #0056b3;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        
+        .titulo {
+            color: #0056b3;
+            margin: 0;
+            font-size: 2.2rem;
+        }
+        
+        .subtitulo {
+            color: #666;
+            font-size: 1.2rem;
+            margin-top: 5px;
+        }
+        
+        .seccion {
+            margin-bottom: 25px;
+        }
+        
+        h2 {
+            color: #0056b3;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 5px;
+            font-size: 1.5rem;
+            margin-top: 0;
+        }
+        
+        ul {
+            padding-left: 20px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+        
+        .destacado {
+            background-color: #e9f5ff;
+            border-left: 4px solid #0056b3;
+            padding: 10px 15px;
+            margin: 15px 0;
+            font-style: italic;
+            border-radius: 0 4px 4px 0;
+        }
+        
+        .boton-volver {
+            display: inline-block;
+            background-color: #0056b3;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+            font-weight: bold;
+            transition: background-color 0.2s;
+        }
+        
+        .boton-volver:hover {
+            background-color: #004494;
+        }
+        
+        .pie-pagina {
+            margin-top: 40px;
+            text-align: center;
+            font-size: 0.9rem;
+            color: #777;
+            border-top: 1px solid #eee;
+            padding-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="contenedor">
+        <header class="cabecera">
+            <h1 class="titulo">Resumen de XML</h1>
+            <p class="subtitulo">Tema 10: Definición, esquema y vocabulario</p>
+        </header>
+
+        <div class="seccion">
+            <h2>¿Qué es XML?</h2>
+            <p>XML (Extensible Markup Language) es un lenguaje de marcado definido por el W3C. Su propósito principal no es mostrar datos, sino describir datos y compartirlos a través de diferentes sistemas.</p>
+            <ul>
+                <li>Es un lenguaje de estructura libre donde las etiquetas no están predefinidas.</li>
+                <li>No es un sustituto de HTML, ni un lenguaje de programación.</li>
+            </ul>
+        </div>
+
+        <div class="seccion">
+            <h2>Documento Bien Formado</h2>
+            <p>Para que un documento pueda procesarse correctamente, debe estar bien formado cumpliendo reglas sintácticas:</p>
+            <ul>
+                <li>Debe tener una estructura de árbol con un único nodo raíz.</li>
+                <li>Las etiquetas deben estar emparejadas (apertura y cierre).</li>
+                <li>Los atributos deben ir siempre entre comillas.</li>
+            </ul>
+            <div class="destacado">
+                Si un XML no está bien formado dará error al instante.
+            </div>
+        </div>
+
+        <div class="seccion">
+            <h2>Validación (DTD)</h2>
+            <p>Validar un XML es comprobar que cumple con las reglas de estructura y contenido predefinidas mediante un DTD (Document Type Definition).</p>
+            <ul>
+                <li>Un DTD describe la estructura del documento.</li>
+                <li>Define qué elementos y atributos pueden existir usando las palabras clave ELEMENT y ATTLIST.</li>
+            </ul>
+        </div>
+
+        <div class="seccion">
+            <h2>El Parser</h2>
+            <p>Es la aplicación que lee un XML y lo convierte en una estructura que el ordenador puede usar, permitiendo detectar errores y trabajar con los datos.</p>
+        </div>
+
+        <div class="seccion">
+            <h2>Formatos de intercambio</h2>
+            <p>Existen alternativas populares a XML para intercambiar información:</p>
+            <ul>
+                <li><strong>JSON:</strong> Ligero y basado en pares clave-valor.</li>
+                <li><strong>YAML:</strong> Usa indentación y es muy fácil de leer.</li>
+                <li><strong>CSV:</strong> Formato tabular delimitado por comas.</li>
+            </ul>
+        </div>
+
+        <a href="../../index.html" class="boton-volver">Volver al índice</a>
+
+        <footer class="pie-pagina">
+            Trabajo de clase realizado por Ferran Cutillas Castillo
+        </footer>
+    </div>
+
+</body>
+</html>
