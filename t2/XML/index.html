@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ferran Cutillas Castillo">
+    <title>Índice de Proyectos XML</title>
+    <style>
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            background-color: #f4f6f8;
+            color: #333;
+            padding: 2rem;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        
+        .boton-volver {
+            display: inline-block;
+            margin-bottom: 20px;
+            padding: 8px 16px;
+            background-color: #e2e8f0;
+            color: #4a5568;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: 500;
+            font-size: 0.9rem;
+            transition: background-color 0.2s, color 0.2s;
+        }
+
+        .boton-volver:hover {
+            background-color: #cbd5e0;
+            color: #2d3748;
+            text-decoration: none;
+        }
+
+        h1 {
+            color: #2c3e50;
+            font-size: 1.8rem;
+            border-bottom: 2px solid #e2e8f0;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            margin-top: 0;
+        }
+
+        .contenedor {
+            background: white;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            border: 1px solid #e2e8f0;
+        }
+
+        details {
+            margin: 10px 0;
+        }
+        
+        summary {
+            cursor: pointer;
+            font-weight: 600;
+            color: #4a5568;
+            padding: 5px 0;
+            user-select: none;
+        }
+
+        summary:hover {
+            color: #3182ce;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 22px;
+            margin: 8px 0;
+            border-left: 2px solid #edf2f7;
+        }
+
+        li {
+            margin: 8px 0;
+            padding-left: 10px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #3182ce;
+            transition: color 0.2s;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: #2b6cb0;
+        }
+
+        .icono {
+            margin-right: 6px;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+
+    <a href="../../index.html" class="boton-volver">⬅ Volver al índice principal</a>
+
+    <div class="contenedor">
+        
+        <h1>📂 Índice de Archivos XML</h1>
+
+        <details open>
+            <summary>📁 conesionario</summary>
+            <ul>
+                <li><span class="icono">📄</span><a href="conesionario/concesionario.xml">concesionario.xml</a></li>
+                <li><span class="icono">⚙️</span><a href="conesionario/concesionario.xsd">concesionario.xsd</a></li>
+            </ul>
+        </details>
+
+        <details open>
+            <summary>📁 ejercicios_xml</summary>
+            <ul>
+                
+                <li>
+                    <details>
+                        <summary>📁 agenda_contactos</summary>
+                        <ul>
+                            <li><span class="icono">📄</span><a href="ejercicios_xml/agenda_contactos/agenda_contactos.xml">agenda_contactos.xml</a></li>
+                            <li><span class="icono">⚙️</span><a href="ejercicios_xml/agenda_contactos/agenda_contactos.xsd">agenda_contactos.xsd</a></li>
+                        </ul>
+                    </details>
+                </li>
+
+                <li>
+                    <details>
+                        <summary>📁 catalogo_libros</summary>
+                        <ul>
+                            <li><span class="icono">📄</span><a href="ejercicios_xml/catalogo_libros/catalogo_libros.xml">catalogo_libros.xml</a></li>
+                            <li><span class="icono">⚙️</span><a href="ejercicios_xml/catalogo_libros/catalogo_libros.xsd">catalogo_libros.xsd</a></li>
+                        </ul>
+                    </details>
+                </li>
+
+                <li>
+                    <details>
+                        <summary>📁 dni</summary>
+                        <ul>
+                            <li><span class="icono">📄</span><a href="ejercicios_xml/dni/dni.xml">dni.xml</a></li>
+                            <li><span class="icono">⚙️</span><a href="ejercicios_xml/dni/dni.xsd">dni.xsd</a></li>
+                        </ul>
+                    </details>
+                </li>
+
+                <li>
+                    <details>
+                        <summary>📁 menu_restaurante</summary>
+                        <ul>
+                            <li><span class="icono">📄</span><a href="ejercicios_xml/menu_restaurante/menu_restaurante.xml">menu_restaurante.xml</a></li>
+                            <li><span class="icono">⚙️</span><a href="ejercicios_xml/menu_restaurante/menu_restaurante.xsd">menu_restaurante.xsd</a></li>
+                        </ul>
+                    </details>
+                </li>
+
+                <li>
+                    <details>
+                        <summary>📁 tarjeta_credito</summary>
+                        <ul>
+                            <li><span class="icono">📄</span><a href="ejercicios_xml/tarjeta_credito/tarjeta_credito.xml">tarjeta_credito.xml</a></li>
+                            <li><span class="icono">⚙️</span><a href="ejercicios_xml/tarjeta_credito/tarjeta_credito.xsd">tarjeta_credito.xsd</a></li>
+                        </ul>
+                    </details>
+                </li>
+
+            </ul>
+        </details>
+
+    </div>
+
+</body>
+</html>
